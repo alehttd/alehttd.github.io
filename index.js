@@ -13,14 +13,6 @@ var skills = ["HTML", "CSS", "JS", "Microsoft Office"];
 
 var skillsHTML = "";
 var i = 0;
-// skillsHTML += "<li>" + skills[i] + "</li>";
-// i++;
-// skillsHTML += "<li>" + skills[i] + "</li>";
-// i++;
-// skillsHTML += "<li>" + skills[i] + "</li>";
-// i++;
-// skillsHTML += "<li>" + skills[i] + "</li>";
-// i++;
 
 for (var i = 0; i < skills.lenght; i++) {
   skillsHTML += "<li>" + skills[i] + "</li>";
