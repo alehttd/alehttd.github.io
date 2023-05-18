@@ -148,6 +148,7 @@ th {
 }
 #languages {
   display: table;
+  display: none;
   box-sizing: border-box;
   text-indent: initial;
   border-spacing: 2px;
@@ -191,7 +192,7 @@ h1 {
   box-sizing: border-box;
   color: black;
   direction: ltr;
-  display: block;
+  display: none;
   font-size: 12px;
   line-height: 16.08px;
   overflow-y: hidden;

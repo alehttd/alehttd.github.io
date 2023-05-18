@@ -26,14 +26,16 @@
       </div>
 
       <ul id="top-menu-bar">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Known Languages</a></li>
-        <li><a href="#">Certification</a></li>
-        <li><a href="#">Volunteering</a></li>
-        <li><a href="#">Future Projects</a></li>
-        <li><a href="#">Hobbies</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" onclick="displayHome()">HOME</a></li>
+        <li><a href="#" onclick="displaySkills()">Skills</a></li>
+        <li><a href="#" onclick="displayLanguages()">Known Languages</a></li>
+        <li><a href="#" onclick="displayCertification()">Certification</a></li>
+        <li><a href="#" onclick="displayVolunteering()">Volunteering</a></li>
+        <li>
+          <a href="#" onclick="displayFutureProjects()">Future Projects</a>
+        </li>
+        <li><a href="#" onclick="displayHobbies()">Hobbies</a></li>
+        <li><a href="#" onclick="displayContact()">Contact</a></li>
       </ul>
     </header>
 
@@ -73,14 +75,14 @@
         </section>
       </div>
       <div id="main">
-        <div class="page">
+        <div id="home" class="page">
           <h3><u>Home</u></h3>
           <ol id="home-list" class="favorite">
             <li>Some info about me comming soon ... :)</li>
           </ol>
         </div>
 
-        <div class="page">
+        <div id="skills" class="page">
           <h3><u>Skills</u></h3>
           <ol id="skills-list" class="favorite">
             <li>HTML</li>
@@ -116,7 +118,7 @@
           </table>
         </div>
 
-        <div class="page">
+        <div id="certification" class="page">
           <h3><u>Certification</u></h3>
           <ol class="favorite">
             <li>Diplome d'etudes en langue francaise DELF A2</li>
@@ -142,7 +144,7 @@
           </ol>
         </div>
 
-        <div class="page">
+        <div id="volunteering" class="page">
           <h3><u>Volunteering</u></h3>
           <ol class="favorite">
             <li>
@@ -154,7 +156,7 @@
           </ol>
         </div>
 
-        <div class="page">
+        <div id="future-projects" class="page">
           <h3><u>Future Projects</u></h3>
           <ol class="favorite">
             <li>Learn Turkish language - Türk Dili</li>
@@ -162,7 +164,7 @@
             <li>Travel</li>
           </ol>
         </div>
-        <div class="page">
+        <div id="hobbies" class="page">
           <h3><u>Hobbies</u></h3>
           <ol class="favorite">
             <li>Listening to music</li>
@@ -177,7 +179,7 @@
           </ol>
         </div>
 
-        <div class="page">
+        <div id="contact" class="page">
           <h3><u>Contact</u></h3>
           <ol class="favorite">
             <li>Telephone number: 0770623645</li>
