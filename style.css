@@ -161,6 +161,7 @@ table {
   border-spacing: 2px;
   border-color: lightgrey;
   border-radius: 0.8rem;
+  text-align: center;
 }
 #job-title {
   color: rgb(0, 0, 0);
